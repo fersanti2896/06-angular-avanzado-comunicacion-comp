@@ -7,15 +7,19 @@
     <app-sidebar></app-sidebar>
     <div class="page-wrapper">
       <div class="container-fluid">
+        <!-- BreadCrumbs -->
         <app-breadcrumbs></app-breadcrumbs>
+
         <!-- Sistema de Rutas -->
-        <div class="row">
+        <router-outlet></router-outlet>
+        
+        <!-- <div class="row">
           <div class="col-12">
             <div class="card">
-              <router-outlet></router-outlet>
+              
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <!-- ============================================================== -->
       <!-- footer -->
